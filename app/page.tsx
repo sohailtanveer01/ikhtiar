@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Ikhtiar — From a Swipe to Niqah",
+  title: "Ikhtiar — Complete Your Half Deen",
 };
 
 const features = [
@@ -80,11 +80,9 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-ink leading-tight tracking-tight mb-6">
-            From a{" "}
-            <span className="text-gold">Swipe</span>
+            Complete Your{" "}
             <br />
-            to{" "}
-            <span className="text-gold">Niqah</span>
+            <span className="text-gold">Half Deen</span>
           </h1>
 
           <p className="text-ink-muted text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
@@ -217,7 +215,7 @@ export default function HomePage() {
           <div className="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-white/10 pointer-events-none" />
           <p className="text-white/80 text-sm font-semibold uppercase tracking-widest mb-3">Ready to begin?</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Find your better half, the halal way.
+            Complete your half deen, the halal way.
           </h2>
           <p className="text-white/80 mb-8 max-w-md mx-auto leading-relaxed">
             Download Ikhtiar today and take the first step toward a blessed marriage.

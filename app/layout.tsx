@@ -8,26 +8,26 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Ikhtiar — From a Swipe to Niqah",
+    default: "Ikhtiar — Complete Your Half Deen",
     template: "%s | Ikhtiar",
   },
   description:
-    "Ikhtiar is a halal Muslim matrimonial app designed to help you find your life partner the right way — safe, serious, and Shariah-conscious.",
+    "Ikhtiar helps you complete your half deen — a halal Muslim matrimonial app designed to help you find your life partner the right way.",
   metadataBase: new URL("https://ikhtiar.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://ikhtiar.app",
     siteName: "Ikhtiar",
-    title: "Ikhtiar — From a Swipe to Niqah",
+    title: "Ikhtiar — Complete Your Half Deen",
     description:
-      "A halal Muslim matrimonial app designed to help you find your life partner the right way.",
+      "Complete your half deen — a halal Muslim matrimonial app designed to help you find your life partner the right way.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ikhtiar — From a Swipe to Niqah",
+    title: "Ikhtiar — Complete Your Half Deen",
     description:
-      "A halal Muslim matrimonial app designed to help you find your life partner the right way.",
+      "Complete your half deen — a halal Muslim matrimonial app designed to help you find your life partner the right way.",
   },
 };
 
