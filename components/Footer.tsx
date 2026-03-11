@@ -28,6 +28,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/support" className="text-ink-muted hover:text-gold transition-colors text-sm">
+                  Support
+                </Link>
+              </li>
+              <li>
                 <a href="mailto:support@ikhtiar.app" className="text-ink-muted hover:text-gold transition-colors text-sm">
                   Contact Support
                 </a>

@@ -22,6 +22,9 @@ export default function Navbar() {
           <Link href="/help" className="text-ink-muted hover:text-gold transition-colors text-sm font-medium">
             Help & FAQ
           </Link>
+          <Link href="/support" className="text-ink-muted hover:text-gold transition-colors text-sm font-medium">
+            Support
+          </Link>
           <Link href="/terms" className="text-ink-muted hover:text-gold transition-colors text-sm font-medium">
             Terms
           </Link>
@@ -52,6 +55,7 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-cream-border bg-cream px-6 py-4 flex flex-col gap-4">
           <Link href="/help" onClick={() => setOpen(false)} className="text-ink-muted font-medium">Help & FAQ</Link>
+          <Link href="/support" onClick={() => setOpen(false)} className="text-ink-muted font-medium">Support</Link>
           <Link href="/terms" onClick={() => setOpen(false)} className="text-ink-muted font-medium">Terms of Service</Link>
           <Link href="/privacy" onClick={() => setOpen(false)} className="text-ink-muted font-medium">Privacy Policy</Link>
           <a
